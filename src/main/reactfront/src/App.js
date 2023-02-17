@@ -10,6 +10,7 @@ const RecordForm = ({numList, setNumList}) =>{
         <div>현재 숫자: {num}</div>
         <button onClick={() => setNum(num + 1)}>숫자 증가</button>
         <button onClick={() => setNum(num - 1)}>숫자 감소</button>
+        <button onClick={() => setNum(num *2)}>숫자 2배</button>
         <button onClick={() => setNum(0)}>숫자 초기화</button>
         <hr/>
         <button onClick={()=> setNumList([...numList, num])}>숫자 기록</button>
