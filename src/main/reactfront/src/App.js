@@ -49,8 +49,8 @@ const App = () =>{
     <RecordForm numList={numList} setNumList={setNumList}/>
     <RecordList numList={numList}/>
     </div>
-    
-  )
+
+  );
 }
 
 
